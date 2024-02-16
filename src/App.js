@@ -416,7 +416,7 @@ function App() {
           >
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            Once you make the purchase, you cannot undo this action. You are buying a Builder Bee NFT what give the oportunity to buy the Loaded Bee NFT for 50% discount 1-for-1 and guarantees access to the White List
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -426,8 +426,7 @@ function App() {
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            successfully mint your NFT.
           </s.TextDescription>
         </s.Container>
       </s.Container>
